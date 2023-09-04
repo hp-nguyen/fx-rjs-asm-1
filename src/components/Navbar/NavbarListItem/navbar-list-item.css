@@ -1,0 +1,8 @@
+.navbar__list-item {
+  font-size: 1.6rem;
+  padding: 12px;
+}
+.navbar__list-item.active {
+  border: 1px solid white;
+  border-radius: 16px;
+}

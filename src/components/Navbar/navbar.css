@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #003580;
+  color: #fff;
+  padding-top: 16px;
+}
+
+.navbar__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__brand-logo {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.navbar__btn {
+  cursor: pointer;
+  color: #003580;
+  padding: 4px 8px;
+  margin-left: 12px;
+}
+.navbar__list {
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+  padding: 24px 0;
+}
