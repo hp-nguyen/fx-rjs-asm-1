@@ -1,8 +1,8 @@
-import './navbar-list-item.css';
+import './NavbarListItem.css';
 function NavbarListItem({ data }) {
   return (
     <li className={`navbar__list-item ${data.active ? 'active' : ''}`}>
-      <i className={`fa ${data.icon}`}></i> {data.type}
+      <i className={`fa ${data.icon}`}></i><span>{data.type}</span>
     </li>
   );
 }

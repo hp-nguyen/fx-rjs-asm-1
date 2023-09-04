@@ -1,4 +1,4 @@
-import './navbar.css';
+import './Navbar.css';
 import NavbarListItem from './NavbarListItem/NavbarListItem';
 function Navbar() {
   const listData = [
@@ -39,7 +39,7 @@ function Navbar() {
           </div>
         </div>
         <ul className="navbar__list">
-          {listData.map(data => <NavbarListItem data={data} />)}
+          {listData.map(data => <NavbarListItem data={data} key={data.type}/>)}
         </ul>
       </div>
     </nav>

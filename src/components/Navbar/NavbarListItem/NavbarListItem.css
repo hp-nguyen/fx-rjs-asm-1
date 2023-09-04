@@ -1,6 +1,9 @@
 .navbar__list-item {
   font-size: 1.6rem;
   padding: 12px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
 }
 .navbar__list-item.active {
   border: 1px solid white;

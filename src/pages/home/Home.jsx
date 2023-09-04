@@ -1,5 +1,5 @@
 import Navbar from '../../components/Navbar/Navbar';
-import './home.css';
+import './Home.css';
 const Home = () => {
   return <Navbar />;
 };
