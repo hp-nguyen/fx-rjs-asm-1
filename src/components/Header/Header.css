@@ -1,0 +1,18 @@
+.header {
+  background-color: #003580;
+  color: #fff;
+}
+.header__container {
+  position: relative;
+}
+.header__title {
+  font-size: 3.2rem;
+  margin-bottom: 24px;
+  padding-top: 32px;
+}
+.header__description {
+  margin-bottom: 16px;
+}
+.header__btn {
+  margin-bottom: 64px;
+}
