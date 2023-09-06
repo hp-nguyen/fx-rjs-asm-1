@@ -19,8 +19,8 @@ const citiesData = [
 ];
 export default function CitiesList() {
   return (
-    <div className="cities-container container--mw-1024">
+    <section className="cities-container container--mw-1024">
       {citiesData.map(city => <City city={city} key={city.name}/>)}
-    </div>
+    </section>
   );
 }

@@ -37,13 +37,13 @@ const hotelsList = [
 
 export default function HotelsList() {
   return (
-    <div className="container--mw-1024">
+    <section className="container--mw-1024">
       <h2 className="properties-title">Homes guests love</h2>
       <div className="properties-container">
         {hotelsList.map(hotel => (
           <HotelItem hotel={hotel} key={hotel.name} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

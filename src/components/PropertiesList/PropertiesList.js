@@ -32,13 +32,13 @@ const propsList = [
 
 export default function PropertiesList() {
   return (
-    <div className="container--mw-1024">
+    <section className="container--mw-1024">
       <h2 className="properties-title">Browse by property type</h2>
       <div className="properties-container">
         {propsList.map(data => (
           <PropertyItem props={data} key={data.name} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
