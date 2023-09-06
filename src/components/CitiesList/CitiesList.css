@@ -1,0 +1,34 @@
+.cities-container {
+  display: flex;
+  gap: 24px;
+  padding-top: 64px;
+}
+.city-card {
+  height: 250px;
+  position: relative;
+  flex-grow: 1;
+  z-index: 1;
+}
+.city-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  padding-left: 24px;
+  border-radius: 0 0 10px 10px;
+  background-color: rgba(0, 0, 0, 0.55);
+  
+}
+.city-name {
+  font-size: 3.2rem;
+}
+.sub-text {
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
