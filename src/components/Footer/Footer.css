@@ -1,0 +1,17 @@
+footer {
+  margin: 32px 0 64px;
+}
+.footer-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list {
+  list-style-type: none;
+  font-size: 1.2rem;
+  color: #003580;
+}
+.footer-list__item {
+  cursor: pointer;
+  margin-bottom: 10px;
+}

@@ -1,4 +1,5 @@
 import CitiesList from '../../components/CitiesList/CitiesList';
+import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import HotelsList from '../../components/HotelsList/HotelsList';
 import Navbar from '../../components/Navbar/Navbar';
@@ -14,7 +15,8 @@ const Home = () => {
         <CitiesList />
         <PropertiesList />
         <HotelsList />
-        <SubcribeSection/>
+        <SubcribeSection />
+        <Footer />
       </main>
     </>
   );

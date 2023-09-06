@@ -7,7 +7,7 @@ export default function SubcribeSection() {
       <p className="subcribe-section__description">
         Sign up and we'll send the best deals to you
       </p>
-      <form className="subcribe-form">
+      <form className="subcribe-form" onSubmit={e => e.preventDefault()}>
         <input className="email-input" type="email" placeholder="Your Email" />
         <Button content="Subcribe" />
       </form>
