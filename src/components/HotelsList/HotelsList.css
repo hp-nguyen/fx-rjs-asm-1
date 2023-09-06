@@ -1,0 +1,45 @@
+.properties-container {
+  display: flex;
+  gap: 20px;
+}
+.properties-title {
+  font-size: 2.2rem;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.hotel-card {
+  flex: 1 1 100%;
+}
+.hotel-img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+.hotel-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.hotel-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.hotel-title:link {
+  color: #077ff0;
+}
+.hotel-city {
+  font-weight: 300;
+}
+.hotel-price {
+  font-weight: 500;
+}
+
+.rating {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  background-color: #003580;
+  color: #fff;
+  padding: 2px;
+}
