@@ -1,8 +1,12 @@
+import Footer from '../../components/Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
+
 const Search = () => {
   return (
-    <div>
-      <h1>Search Page</h1>
-    </div>
+    <>
+      <Navbar />
+      <Footer />
+    </>
   );
 };
 

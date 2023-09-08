@@ -32,7 +32,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar__container container--mw-1024">
         <div className="navbar__header">
-          <span className="navbar__brand-logo">Booking Website</span>
+          <a href='/' className="navbar__brand-logo">Booking Website</a>
           <div className="navbar__btns-wrapper">
             <button className="navbar__btn">Register</button>
             <button className="navbar__btn">Login</button>

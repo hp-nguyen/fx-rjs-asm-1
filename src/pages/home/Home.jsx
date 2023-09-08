@@ -5,7 +5,6 @@ import HotelsList from '../../components/HotelsList/HotelsList';
 import Navbar from '../../components/Navbar/Navbar';
 import PropertiesList from '../../components/PropertiesList/PropertiesList';
 import SubcribeSection from '../../components/SubcribeSection/SubcribeSection';
-import './Home.css';
 const Home = () => {
   return (
     <>

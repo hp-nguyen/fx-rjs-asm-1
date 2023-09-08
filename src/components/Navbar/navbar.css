@@ -11,7 +11,9 @@
 
 .navbar__brand-logo {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: #fff;
 }
 .navbar__btn {
   cursor: pointer;

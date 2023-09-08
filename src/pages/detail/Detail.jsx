@@ -1,8 +1,14 @@
+import Footer from '../../components/Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
+import SubcribeSection from '../../components/SubcribeSection/SubcribeSection';
+
 const Detail = () => {
   return (
-    <div>
-      <h1>Detail Page</h1>
-    </div>
+    <>
+      <Navbar />
+      <SubcribeSection />
+      <Footer />
+    </>
   );
 };
 
