@@ -26,5 +26,5 @@ body {
 /* Container max-width 1024px */
 .container--mw-1024 {
   max-width: 1024px;
-  margin: 0 auto;
+  margin-inline: auto;
 }

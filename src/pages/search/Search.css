@@ -1,0 +1,15 @@
+.search-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 64px;
+  /* border: 1px solid #ee0b0b; */
+}
+
+.form {
+  /* flex: 1 0; */
+  background-color: orange;
+  width: 266px;
+}
+.search-list {
+  flex: 3 1;
+}
