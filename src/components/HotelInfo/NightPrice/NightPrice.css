@@ -1,0 +1,27 @@
+.night-price-card {
+  background-color: #ebf3ff;
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.night-price__title {
+  color: #555;
+  font-size: 18px;
+}
+.night-price__text {
+  font-size: 1.4rem;
+}
+.nine-night-price {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.night-price {
+  font-weight: bold;
+}
+.night-price-btn {
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}

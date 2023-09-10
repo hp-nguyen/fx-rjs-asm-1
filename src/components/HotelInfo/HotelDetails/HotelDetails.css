@@ -1,0 +1,15 @@
+.details-paragraph {
+  font-size: 1.4rem;
+  margin-top: 12px;
+}
+.hotel-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.details-text {
+  flex: 3 1;
+}
+.night-price-card {
+  flex: 1 1;
+}

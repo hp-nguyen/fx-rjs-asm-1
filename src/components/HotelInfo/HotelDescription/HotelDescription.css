@@ -1,0 +1,32 @@
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detail__address {
+  font-size: 1.2rem;
+}
+.detail__distance {
+  color: #0071c2;
+  font-weight: 500;
+}
+.detail__price-highlight {
+  color: #008009;
+  font-weight: 500;
+}
+
+.detail-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+.detail__btn {
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
