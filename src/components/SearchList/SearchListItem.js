@@ -29,7 +29,7 @@ export default function SearchListItem({hotel}) {
         <div className="pricing">
           <span className="price">${hotel.price}</span>
           <span className="tax-fee">Includes taxes and fees</span>
-        <Button content='See availability'/>
+        <Button className='search-item__btn' content='See availability'/>
         </div>
       </div>
     </li>

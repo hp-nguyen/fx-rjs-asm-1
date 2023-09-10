@@ -44,7 +44,7 @@
   justify-content: space-between;
   flex: 1;
 }
-.rating {
+.search-item__details .rating {
   flex-direction: row-reverse;
   align-items: normal;
   justify-content: space-between;
@@ -65,7 +65,7 @@
   color: #808080;
   margin-bottom: 12px;
 }
-.btn {
+.search-item__btn {
   border-radius: 5px;
   font-size: 1.4rem;
   font-weight: bold;

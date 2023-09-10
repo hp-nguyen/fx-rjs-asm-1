@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { DateRange } from 'react-date-range';
 import { format } from 'date-fns';
 import Button from '../../Button/Button';
-import 'react-date-range/dist/styles.css'; // main style file
-import 'react-date-range/dist/theme/default.css'; // theme css file
+import 'react-date-range/dist/styles.css'; // main style of date range
+import 'react-date-range/dist/theme/default.css'; // theme css of date range
 import './HeaderSearch.css';
 import { useNavigate } from 'react-router-dom';
 export default function HeaderSearch() {
@@ -48,6 +48,7 @@ export default function HeaderSearch() {
           dayRange[0].endDate,
           'MM/dd/yyyy'
         )}`}</span>
+        {/* Render Date Modal */}
         {modalOpen && (
           <div onClick={event => event.stopPropagation()}>
             <DateRange
